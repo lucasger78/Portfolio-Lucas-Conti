@@ -965,13 +965,16 @@ button,button:focus,button:hover,button:active {
 /* ==========================================================================Footer========================================================================== */
 footer a {
 	color:#a1a9b0;
+
 }
 footer {
 	background-color:#f3f5f8;
 	padding:40px 0 30px;
+	/* height: 78px; */
 }
 footer p {
 	color: #808080;
+	align-items: center;
 }
 /* ==========================================================================FlexSlider Custom CSS========================================================================== */
 #servicesSlider {
