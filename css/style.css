@@ -769,6 +769,36 @@ img.grayscale:hover {
 	top: 50px;
 }
 
+/* #contenedor-projects {
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+
+input[type="radio"] { display: none; transition: .5s; border-bottom: 2px solid transparent; }
+
+label {
+	margin: 0px 10px;
+	cursor: pointer;
+}
+
+#contenedor-projects #first:hover ~ #projects2 .portfolio-item second,
+#contenedor-projects #first:hover ~ #projects2 .portfolio-item third {
+	display: none;
+}
+
+#contenedor-projects #second:hover ~ #projects2 .portfolio-item first,
+#contenedor-projects #second:hover ~ #projects2 .portfolio-item third {
+	display: none;
+}
+
+#contenedor-projects #third:hover ~ #projects2 .portfolio-item second,
+#contenedor-projects #third:hover ~ #projects2 .portfolio-item first {
+	display: none;
+} */
+
+
+
 #portfolio-flters li {
     display: inline-block;
     font-weight: 500;
@@ -790,23 +820,23 @@ img.grayscale:hover {
     position: relative;
 }
 
-.first:active ~ portfolio-flters .second, 
-.first:active ~ portfolio-flters .third{
+.first:active ~ .second, 
+.first:active ~ .third{
 display: none;
 }
 
-.second:active ~ portfolio-flters .first, 
-.second:active ~ portfolio-flters .third{
+.second:active ~  .first, 
+.second:active ~  .third{
 display: none;
 }
 
-.third:active ~ portfolio-flters .second, 
-.third:active ~ portfolio-flters .first{
+.third:active ~  .second, 
+.third:active ~  .first{
 display: none;
 }
 
 
-/* .portfolio-btn {
+.portfolio-btn {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -820,7 +850,7 @@ display: none;
     padding-bottom: 100px !important;
     opacity: 0;
     transition: .5s;
-} */
+}
 
 /* .portfolio-item:hover .portfolio-btn {
     opacity: 0.8;
@@ -910,6 +940,9 @@ ul.social-buttons li:last-child {
 .social {
 	margin-top: 25px
 }
+
+
+
 /* ==========================================================================Contact========================================================================== */
 .back-to-top {
     position: fixed;

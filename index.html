@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Portfolio with projects in Python with Django (Backend) and Html, Css and Javascript (Frontend) by Lucas Conti">
+    <meta name="description" content="Desarrollador web diseñador web diseño de paginas web Portfolio with projects in Python with Django (Backend) and Html, Css and Javascript (Frontend) by Lucas Conti">
 	<!-- Website Title -->
     <title>Lucas Conti - Portfolio Web Designer</title>
     <!-- Bootstrap -->
@@ -83,11 +83,16 @@
                   <div class="row">
                     <div class="col-md-12">
                       <ul class="social-buttons">
-                        <li><a href="https://github.com/lucasger78" class="social-btn box-hover" target="_blank"><i class="fa fa-github"></i></a></li><!-- github -->
-                        <li><a href="https://www.linkedin.com/in/lucasconti78/" class="social-btn box-hover" target="_blank"><i class="fa fa-linkedin"></i></a></li><!-- linkedin -->
-                        <!--<li><a href="index.html#" class="social-btn" target="_blank"><i class="fa fa-behance"></i></a></li> behance -->
-                        <li><a href="https://wa.link/ie7jd2" class="social-btn box-hover" target="_blank"><i class="fa fa-whatsapp"></i></a></li><!-- whatsapp -->
-                <!-- <li><a href="index.html#" class="social-btn"><i class="fa fa-youtube"></i></a></li>youtube -->
+                        <!-- github -->
+                        <li><a href="https://github.com/lucasger78" class="social-btn box-hover" target="_blank"><i class="fa fa-github"></i></a></li>
+                        <!-- linkedin -->
+                        <li><a href="https://www.linkedin.com/in/lucasconti78/" class="social-btn box-hover" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                         <!--behance -->
+                        <!-- <li><a href="index.html#" class="social-btn" target="_blank"><i class="fa fa-behance"></i></a></li> -->
+                        <!-- whatsapp -->
+                        <li><a href="https://wa.link/ie7jd2" class="social-btn box-hover" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                <!-- youtube -->
+                  <!-- <li><a href="index.html#" class="social-btn"><i class="fa fa-youtube"></i></a></li> -->
                       </ul>
                     </div>
                   </div>
@@ -169,28 +174,42 @@
         PORTFOLIO SECTION
     =========================== -->
         <section class="swag text-center" id="portfolio">        
-          <div class="container">
+          <div class="contenedor">
 		    <!-- Headline -->
              
             <div class="row">
             <h1 class="arrow">Recent <span>Projects</span>
          </h1>
 
-        
-         <!-- <div class="col-lg-6 text-lg-end">
+        <!-- <div class="col-lg-6 text-lg-end" id="contenedor-projects">        
+          <input type="radio" name="filter" id="todos" checked="yes">
+          <label for="todos">Todos</label>
+          
+          <input type="radio" name="filter" id="first" checked="yes">
+          <label for="todos">Python</label>
+          
+          <input type="radio" name="filter" id="second" checked="yes">
+          <label for="todos">JavaScript</label>
+          
+          <input type="radio" name="filter" id="third" checked="yes">
+          <label for="todos">Frontend (Html-Css)</label>
+        <div> -->
+         <div class="col-lg-6 text-lg-end" id="contenedor-projects">
           <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
               <li class="mx-3 active" data-filter="*">Todo</li>
               <li class="mx-3" data-filter=".first">Python</li>
               <li class="mx-3" data-filter=".second">JavaScript</li>
               <li class="mx-3" data-filter=".third">Frontend (Html-Css)</li>
           </ul>
-      </div> -->
+      </div>
             </div>
           </div>
         </section>
 
         <div class="container">
           <div class="row row-offset-0"> 
+
+            
 
             <!-- <div class="col-lg-6 text-lg-end"> -->
               <!-- <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
@@ -207,8 +226,8 @@
           <!-- PORTFOLIO ITEM 1 -->
           <div class="col-md-3 col-sm-6">
               <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                     <a href="https://drive.google.com/file/d/1hIJE6KkxSM25npZHn8V5had4JbI7wLdT/view?usp=sharing"  title="Aplicación Ritmo Urbano (Python-Django)" target="_blank" ><img class="grayscale portfolio-item first" src="img/portfolio/portfolio-01-thumbnail.jpg" alt="App Ritmo Urbano"></a> 
+                  <div class="img first">
+                     <a href="https://drive.google.com/file/d/1hIJE6KkxSM25npZHn8V5had4JbI7wLdT/view?usp=sharing"  title="Aplicación Ritmo Urbano (Python-Django)" target="_blank" ><img class="grayscale" src="img/portfolio/portfolio-01-thumbnail.jpg" alt="App Ritmo Urbano"></a> 
                   </div>
               </div>
           </div>
@@ -218,9 +237,9 @@
           <div class="col-md-3 col-sm-6">
               <div class="overlay-effect effects clearfix">
                 
-                  <div class="img">
+                  <div class="img first">
                       
-                      <a href="https://youtu.be/Vld-RK-afrw" title="App Luck App (Python-Django)" target="_blank"><img class="grayscale portfolio-item first" src="img/portfolio/portfolio-02-thumbnail.jpg" alt="App Luck App"></a>
+                      <a href="https://youtu.be/Vld-RK-afrw" title="App Luck App (Python-Django)" target="_blank"><img class="grayscale" src="img/portfolio/portfolio-02-thumbnail.jpg" alt="App Luck App"></a>
                       
                   </div>
               </div>
@@ -231,8 +250,8 @@
       
           <div class="col-md-3 col-sm-6">
               <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="https://lucasger78.github.io/JavaScript_CoderHouse_ProyectoFinal" title="Ritmo Urbano Cursos Online (Javascript)" target="_blank"><img class="grayscale portfolio-item second" src="img/portfolio/portfolio-03-thumbnail.jpg" alt="Ritmo Urbano Cursos Online"></a>
+                  <div class="img second">
+                      <a href="https://lucasger78.github.io/JavaScript_CoderHouse_ProyectoFinal" title="Ritmo Urbano Cursos Online (Javascript)" target="_blank"><img class="grayscale" src="img/portfolio/portfolio-03-thumbnail.jpg" alt="Ritmo Urbano Cursos Online"></a>
                   </div>
               </div>
           </div>
@@ -241,8 +260,8 @@
   		<!-- PORTFOLIO ITEM 4 -->
           <div class="col-md-3 col-sm-6">
             <div class="overlay-effect effects clearfix">
-              <div class="img">
-                      <a href="https://ecodrop.com.ar/" title="Ecodrop (Html-Css-Js)" target="_blank"><img class="grayscale portfolio-item third" src="img/portfolio/portfolio-04-thumbnail.jpg" alt="Ecodrop"></a>
+              <div class="img third">
+                      <a href="https://ecodrop.com.ar/" title="Ecodrop (Html-Css-Js)" target="_blank"><img class="grayscale" src="img/portfolio/portfolio-04-thumbnail.jpg" alt="Ecodrop"></a>
                   </div>
               </div>
           </div>
@@ -251,8 +270,8 @@
           <!-- PORTFOLIO ITEM 5 -->
           <div class="col-md-3 col-sm-6">
             <div class="overlay-effect effects clearfix">
-              <div class="img">
-                      <a href="http://www.mariajosereyes.com.ar" title="Portfolio María José Reyes (Html-Css-Js)" target="_blank"><img class="grayscale portfolio-item third" src="img/portfolio/portfolio-05-thumbnail.jpg" alt="Portfolio María José Reyes">
+              <div class="img third">
+                      <a href="http://www.mariajosereyes.com.ar" title="Portfolio María José Reyes (Html-Css-Js)" target="_blank"><img class="grayscale" src="img/portfolio/portfolio-05-thumbnail.jpg" alt="Portfolio María José Reyes">
                         
                       </a>
                   </div>
@@ -263,8 +282,8 @@
   	    <!-- PORTFOLIO ITEM 6 -->
           <div class="col-md-3 col-sm-6">
               <div class="overlay-effect effects clearfix">
-                  <div class="img">
-                      <a href="https://www.ritmourbano.com.ar/" title="Ritmo Urbano Institucional (Html-Css-Js)"><img class="grayscale  portfolio-item third" src="img/portfolio/portfolio-06-thumbnail.jpg" alt="Ritmo Urbano Institucional"></a>
+                  <div class="img third">
+                      <a href="https://www.ritmourbano.com.ar/" title="Ritmo Urbano Institucional (Html-Css-Js)"><img class="grayscale" src="img/portfolio/portfolio-06-thumbnail.jpg" alt="Ritmo Urbano Institucional"></a>
                   </div>
               </div>
           </div>
