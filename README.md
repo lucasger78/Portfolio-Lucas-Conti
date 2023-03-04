@@ -1,5 +1,5 @@
 # Lucas Conti Portfolio
-Encontrarán alguno de los trabajos realizados hasta el momento con diferentes lenguajes.
+Portfolio with projects in Python with Django (Backend) and Html, Css and Javascript (Frontend) 
 
 
 
