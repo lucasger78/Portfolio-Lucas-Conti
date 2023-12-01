@@ -1,0 +1,36 @@
+{
+    "nav": {
+      "home": "HOME",
+      "about-me": "ABOUT ME",
+      "skills-and-tools": "SKILLS AND TOOLS",
+      "portfolio": "PORTFOLIO",
+      "contact": "CONTACT"
+    },
+    "Perfil": {    
+      "profile-funcion": "Web Developer, Web Developer, Python Developer, Python Developer"
+      
+    },
+
+    "Botones":{
+        "boton-portfolio": "Portfolio",
+        "boton": "See More",
+        "boton-descargar-cv": "Download CV"
+    },
+    
+    "Secciones": {
+        "about-me": "A little about me",
+        "about-me-contenido" : "I'm an advertising copywriter with over 15 years of experience in advertising agencies, adapted to the digital world. As a result, since late 2007, as a freelancer, I've been dedicated to social media as a community manager and to digital marketing. At the same time, since 2021, I decided (once again) to adapt to the present and focus on programming, thus becoming a Python (Django) and web (HTML, CSS, and JavaScript) developer. My intention is to continue learning and acquiring knowledge to be able to work in this world that I discovered and find very exciting.",    
+        "tiutlo-herramientas" : "Skills and Tools:",
+        "titulo-projects": "Recent",
+        "titulo-projects-1": "Projects",
+        "titulo-contact": "contact",
+        "titulo-contact-1": "me"
+
+    }
+    
+  }
+
+
+  
+
+  
