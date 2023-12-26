@@ -1,0 +1,48 @@
+/*--------------------------------------------------------------
+# Portfolio Extras
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+FUNCIONA PERO NO REACOMODA 
+--------------------------------------------------------------*/
+/* .portfolio-img {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.portfolio-img.hide {
+  opacity: 0;
+  transform: scale(0);
+} */
+
+
+
+/* Agrega estilos adicionales según sea necesario */
+
+.portfolio-img {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.portfolio-img.hide {
+  opacity: 0;
+  transform: scale(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
