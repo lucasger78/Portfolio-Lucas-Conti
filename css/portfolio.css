@@ -2,25 +2,7 @@
 # Portfolio Extras
 --------------------------------------------------------------*/
 
-/*--------------------------------------------------------------
-FUNCIONA PERO NO REACOMODA 
---------------------------------------------------------------*/
-/* .portfolio-img {
-  opacity: 1;
-  transform: scale(1);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-}
-
-.portfolio-img.hide {
-  opacity: 0;
-  transform: scale(0);
-} */
-
-
-
-/* Agrega estilos adicionales según sea necesario */
-
-/* .portfolio-img {
+.portfolio-img {
   opacity: 1;
   transform: scale(1);
   transition: opacity 0.5s ease, transform 0.5s ease;
@@ -31,30 +13,37 @@ FUNCIONA PERO NO REACOMODA
   transform: scale(0);
 }
 
-.menu-portfolio{
-  justify-items: center;
-} */
-
-/* Establece la altura de las imágenes para que sean rectangulares horizontales */
-.portfolio img {
-  width: 100% !important;
-  height: auto !important;
-  object-fit: cover !important;
-}
-
-/* Añade estilos adicionales según sea necesario */
-.portfolio {
-  overflow: hidden !important; /* Evita que las imágenes se desborden del contenedor */
-  border-radius: 8px !important; /* Borde redondeado opcional */
-  max-height: 300px !important; /* Establece la altura máxima de las imágenes */
-}
-
-.overlay-effect {
+.menu-portfolio {
   display: flex !important;
-  align-items: center !important;
   justify-content: center !important;
-  height: 100% !important;
 }
+
+.portfolio-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;  
+}
+
+.overlay-effect .img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.effects .img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  
+}
+
+.overlay-effect .overlay a.expand {
+  margin: 0 auto -30px auto;
+}
+
+
+
+
 
 
 

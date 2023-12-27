@@ -17,10 +17,6 @@
     background: #fff url('../img/preloader.gif') no-repeat center center;
 }
 
-
-
-
-
 /* ==========================================================================
 	Global Styles
 ========================================================================== */
@@ -622,11 +618,6 @@ h1.arrow span {
 	
 }
 
-
-  
-
-  
-
 .boton{
 	text-transform: uppercase;
 	font-weight: bold;
@@ -666,10 +657,6 @@ h1.arrow span {
 	font-weight: lighter;
 	color:  #ffffff;
 }
-
-
-
-
 
 /* ==========================================================================About========================================================================== */
 .about-image {
@@ -763,10 +750,11 @@ h1.arrow span {
 	color:#fff;
 	background:rgba(0,0,0,1);
 }
-/* .portfolio img {
+.portfolio img {
 	height:auto;
 	width:100%;
-} */
+	
+}
 img.grayscale {
 	filter:url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
 	/* Firefox 3.5+,IE10 */ filter:gray;
@@ -860,44 +848,6 @@ img.grayscale:hover {
 	transform:translate3d(0,0,0);
 	-ms-transform:translate3d(-40px,0,0);
 }
-/* .hype {
-	position:absolute;
-	left:0;
-	right:0;
-	margin-left:auto;
-	margin-right:auto;
-	top: 50px;
-} */
-
-/* #contenedor-projects {
-	width: 50%;
-	margin: auto;
-	text-align: center;
-}
-
-input[type="radio"] { display: none; transition: .5s; border-bottom: 2px solid transparent; }
-
-label {
-	margin: 0px 10px;
-	cursor: pointer;
-}
-
-#contenedor-projects #first:hover ~ #projects2 .portfolio-item second,
-#contenedor-projects #first:hover ~ #projects2 .portfolio-item third {
-	display: none;
-}
-
-#contenedor-projects #second:hover ~ #projects2 .portfolio-item first,
-#contenedor-projects #second:hover ~ #projects2 .portfolio-item third {
-	display: none;
-}
-
-#contenedor-projects #third:hover ~ #projects2 .portfolio-item second,
-#contenedor-projects #third:hover ~ #projects2 .portfolio-item first {
-	display: none;
-} */
-
-
 
 #portfolio-flters li {
     display: inline-block;
@@ -909,32 +859,11 @@ label {
 }
 
 
-
 #portfolio-flters li:hover,
 #portfolio-flters li.active {
     color: var(--primary);
     border-color: var(--primary);
 }
-
-/* .portfolio-img {
-    position: relative;
-} */
-
-/* .first:active ~ .second, 
-.first:active ~ .third{
-display: none;
-}
-
-.second:active ~  .first, 
-.second:active ~  .third{
-display: none;
-}
-
-.third:active ~  .second, 
-.third:active ~  .first{
-display: none;
-} */
-
 
 .portfolio-btn {
     position: absolute;
@@ -951,15 +880,6 @@ display: none;
     opacity: 0;
     transition: .5s;
 }
-
-/* .portfolio-item:hover .portfolio-btn {
-    opacity: 0.8;
-    padding-bottom: 30px !important;
-} */
-
-/* .container{
-	align-content: center;
-} */
 
 /* ==========================================================================CTA========================================================================== */
 .spacer-cta {
@@ -1289,12 +1209,6 @@ ul.slides li {
 	}
 }
 
-
-
-
-
-
-
 /** Responsive fixes **/
 @media screen and (max-width:767px) {
 	.inner {
@@ -1346,3 +1260,5 @@ ul.slides li {
 	    padding-bottom: 40px;
 	}
 }
+
+
