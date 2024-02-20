@@ -25,8 +25,12 @@
         "titulo-contact": "contate",
         "titulo-contact-1": "me",
         "menu-projects": "Todos"
+    },
 
+    "Vue-text": {
+      "vue-text": "Em Breve"
     }
+    
     
   }
   
