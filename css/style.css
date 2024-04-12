@@ -1064,6 +1064,8 @@ ul.social-buttons li:last-child {
 button,button:focus,button:hover,button:active {
 	outline: none!important;
 }
+
+
 /* ==========================================================================Footer========================================================================== */
 footer a {
 	color:#a1a9b0;
