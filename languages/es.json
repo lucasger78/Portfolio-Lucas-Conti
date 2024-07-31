@@ -7,7 +7,7 @@
       "contact": "CONTACTO"
     },
     "Perfil": {    
-      "profile-funcion": "Desarrollador Web, Desarrollador Web, Desarrollador Python, Desarrollador Python"      
+      "profile-funcion": "FullStack Developer, FullStack Developer, Python (Django | Flask), Python (Django | Flask)"      
     },
 
     "Botones": {
@@ -18,7 +18,7 @@
 
     "Secciones": {
         "about-me": "Un poco sobre Mí",
-        "about-me-contenido": "Soy redactor publicitario con más de 15 años de experiencia en agencias de publicidad, adaptado al mundo digital. Por eso, desde finales de 2007, como freelancer, me he dedicado a las redes sociales como community manager y al marketing digital. Al mismo tiempo, desde 2021, decidí (una vez más) adaptarme al presente y dedicarme a la programación, convirtiéndome en un desarrollador Python (Django) y web (HTML, CSS y JavaScript). Mi intención es seguir aprendiendo y adquiriendo conocimiento para poder trabajar en este mundo que descubrí y que es muy emocionante.",    
+        "about-me-contenido": "Soy redactor publicitario con más de 15 años de experiencia en agencias de publicidad, adaptado al mundo digital. Por eso, desde finales de 2007, como freelancer, me he dedicado a las redes sociales como community manager y al marketing digital. Al mismo tiempo, desde 2021, decidí (una vez más) adaptarme al presente y dedicarme a la programación, convirtiéndome en un FullStack Developer, Python (Django | Flask). Mi intención es seguir aprendiendo y adquiriendo conocimiento para poder trabajar en este mundo que descubrí y que es muy emocionante.",    
         "tiutlo-herramientas": "Habilidades & Herramientas",
         "titulo-projects": "Poyectos",
         "titulo-projects-1": "Recientes",
