@@ -713,11 +713,13 @@ h1.arrow span {
 	-moz-transition: all 1s ease;
 	-ms-transition: all 1s ease;
 	transition: all 1s ease;
+	/* filter: grayscale(100%) */
 }
 
 .skills-effect img:hover {
-	height: 115px;
-	width: 115px;
+	height: 70px;
+	width: 70px;
+	/* filter: grayscale(0%) */
 	
 }
 
@@ -725,9 +727,10 @@ h1.arrow span {
     filter: grayscale(100%);
     transition: filter 0.3s ease;
   }
-
-  /* Al pasar el mouse por encima, se quita el filtro */
+  
   .flask-logo:hover {
+	height: 70px !important;
+	width: 55px !important;
     filter: grayscale(0%);
   }
 
@@ -735,6 +738,24 @@ h1.arrow span {
 	text-transform:uppercase;
 	font-weight:bolder;
   }
+
+  .mysql-logo {
+    /* filter: grayscale(100%); */
+    transition: filter 0.3s ease;
+  }
+  
+  .mysql-logo:hover {
+	height: 40px !important;
+	width: 90px !important;
+    /* filter: grayscale(0%); */
+  }
+
+ /*  .py:hover{
+	border: dotted 1px rgb(194, 178, 0);
+	box-shadow: 12 12 12 rgba(19, 121, 255, 0.9); 
+	box-shadow: 0 0 40px rgba(55, 118, 171, 0.8);
+	border-radius: 95%
+  }*/
 
 /* ==========================================================================Portfolio========================================================================== */
 .swag {
