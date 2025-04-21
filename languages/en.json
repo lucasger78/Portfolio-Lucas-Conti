@@ -19,7 +19,8 @@
     
     "Secciones": {
         "about-me": "A little about me",
-        "about-me-contenido" : "I'm an advertising copywriter with over 15 years of experience in advertising agencies, adapted to the digital world. As a result, since late 2007, as a freelancer, I've been dedicated to social media as a community manager and to digital marketing. At the same time, since 2021, I decided (once again) to adapt to the present and focus on programming, thus becoming a FullStack Developer, Python (Django | Flask). My intention is to continue learning and acquiring knowledge to be able to work in this world that I discovered and find very exciting.",    
+        "about-me-contenido" : "I'm a FullStack Developer, focused on modern web design, aimed at companies looking to digitize or renew their online presence.\nMy stack combines HTML, CSS, JavaScript (React), and Python (Django/Flask). I specialize in building custom websites that not only look good but also communicate clearly and are ready to scale.\nI come from the creative world: over 15 years in advertising, copywriting, and digital marketing. That gave me an integral vision I now apply to development: I see websites as platforms for communication and strategy, not just simple pages.\nI work independently with companies of all sizes looking to make the digital leap, and I especially enjoy when the process is collaborative.\nI'm always open to challenging projects and also to joining visionary teams where I can contribute both technically and creatively.",   
+         
         "tiutlo-herramientas" : "Skills and Tools:",
         "titulo-projects": "Recent",
         "titulo-projects-1": "Projects",

@@ -18,7 +18,9 @@
     
     "Secciones": {
         "about-me": "UM POUCO SOBRE MIM",
-        "about-me-contenido": "Sou redator publicitário com mais de 15 anos de experiência em agências de publicidade, adaptado ao mundo digital. Por isso, desde o final de 2007, como freelancer, tenho me dedicado às redes sociais como community manager e ao marketing digital. Ao mesmo tempo, desde 2021, decidi (novamente) me adaptar ao presente e me dedicar à programação, tornando-me assim um Desenvolvedor FullStack, Python (Django | Flask). Minha intenção é continuar aprendendo e adquirindo conhecimento para poder trabalhar nesse mundo que descobri e que é muito emocionante.",    
+
+        "about-me-contenido": "Sou Desenvolvedor FullStack, com foco em design web moderno, voltado para empresas que buscam se digitalizar ou renovar sua presença online.\nMeu stack combina HTML, CSS, JavaScript (React) e Python (Django/Flask). Sou especializado em criar sites sob medida que não apenas têm uma boa aparência, mas que comunicam com clareza e estão prontos para escalar.\nVenho do mundo criativo: mais de 15 anos em publicidade, copywriting e marketing digital. Isso me deu uma visão integrada que aplico hoje no desenvolvimento: penso nos sites como plataformas de comunicação e estratégia, não apenas como páginas simples.\nTrabalho de forma independente com empresas de diferentes tamanhos que buscam dar o salto digital, e gosto especialmente quando o processo é colaborativo.\nEstou sempre aberto a projetos desafiadores e também a me juntar a equipes com visão, onde posso contribuir tanto tecnicamente quanto criativamente.",
+
         "tiutlo-herramientas": "Habilidades e Ferramentas",
         "titulo-projects": "Projectos",
         "titulo-projects-1": "Recentes",
