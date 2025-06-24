@@ -75,7 +75,7 @@ audio,canvas,video {
 	*display:inline;
 	*zoom: 1;
 }
-* Remove excess height in iOS 5 devices. */
+/* Remove excess height in iOS 5 devices. */
 audio:not([controls]) {
 	display:none;
 	height:0;
@@ -570,13 +570,15 @@ h1.arrow span {
 
 /* FLAGS */
 .flags{
-	width: 6.5em;
-	height:2.25em;
+	width: 9em;
+	height:auto;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	position:fixed;
-	padding-left: 10px; 
+	top: 30px;
+	right: 100px;
+	padding-right: 10px;
 	
 		
 }
@@ -584,6 +586,8 @@ h1.arrow span {
 .flags-ar,
 .flags-br,
 .flags-gb {	
+	
+  margin-left: 5px;
   filter: grayscale(100%);
   transition: all 0.3s;
   -webkit-transition: all 0.3s;
@@ -1391,11 +1395,11 @@ html, body {
     top: 40%;
     transform: translateY(-50%);
     z-index: 1000;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.7);
     padding: 20px 10px;
-    border-radius: 5px 0 0 5px;
+    border:rgba(180, 180, 180, 0.6) 1px solid;
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
 }
 
 .vertical-nav .menu {
