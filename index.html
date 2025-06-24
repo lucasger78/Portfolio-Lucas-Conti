@@ -47,12 +47,12 @@
         =========================== -->
         <header id="home">
 		    <!-- creative menu -->
-            <div class="container-fluid">
+            <!-- <div class="container-fluid">
               <div class="row">
                 <div class="menu-wrap">
-				<nav class="menu">
+				<nav class="menu"> -->
 				    <!-- Menu Links -->
-					<div class="icon-list">
+					<!-- <div class="icon-list">
 						<a href="index.html#home"><i class="fa fa-fw fa-home"></i><span data-section="nav" data-value="home">Home</span></a>
 						<a href="index.html#about"><i class="fa fa-fw fa-quote-left"></i><span data-section="nav" data-value="about-me">About</span></a>
 						<a href="index.html#skills"><i class="fa fa-fw fa-globe"></i><span data-section="nav" data-value="skills-and-tools">Skills and Tools</span></a>
@@ -60,8 +60,25 @@
 						<a href="index.html#contact"><i class="fa fa-fw fa-envelope-o"></i><span data-section="nav" data-value="contact">Contact</span></a>            
 					</div>
           
-				</nav>
-         <!-- Flags       -->
+				</nav> -->
+          <!-- Elimina el menú hamburguesa y wrapper original -->
+      <div id="sideMenu">
+        <div class="menu-toggle" onclick="toggleMenu()">M<br>E<br>N<br>U</div>
+          <div class="vertical-nav hidden" id="verticalNav">
+              <nav class="menu">
+                  <div class="icon-list">
+                      <a href="index.html#home"><i class="fa fa-home"></i><span>Home</span></a>
+                      <a href="index.html#about"><i class="fa fa-user"></i><span>About</span></a>
+                      <a href="index.html#skills"><i class="fa fa-code"></i><span>Skills</span></a>
+                      <a href="index.html#portfolio"><i class="fa fa-briefcase"></i><span>Portfolio</span></a>
+                      <a href="index.html#contact"><i class="fa fa-envelope"></i><span>Contact</span></a>
+                  </div>
+              </nav>
+          </div>
+      </div>
+
+
+      <!-- Flags       -->
 
       <div id="flags" class="flags flags_img">
         <div class="flags_items flags-ar" data-language="es">
@@ -75,7 +92,8 @@
         </div>
       </div>
 			    </div>
-			    <button class="menu-button" id="open-button"></button><!-- menu button -->
+          <!-- menu button -->
+			    <!-- <button class="menu-button" id="open-button"></button> -->
       </div><!--/row-->            
 </div> <!--/container -->
          
@@ -142,8 +160,7 @@
                 <!-- Headline -->
                 <h1 class="arrow" data-section="Secciones" data-value="about-me">A little <span>about</span> me </h1>
 
-				<!-- about / welcome text -->
-                <!-- <p>Soy copywriter publicitario con +15 años de experiencia, enfocado al mundo digital, por eso desde fines del 2007 como freelance me dedique a las redes sociales, como community manager y marketing digital. A su vez dese el 2021 decidí (otra vez) adaptarme a la actualidad y dedicarme a la programación, y de esta manera transformarme en un FullStack Developer, Python (Django | Flask). Mi intención es seguir aprendiendo y sumando conocimiento para poder trabajar en este mundo que descubrí y es muy apasionante.</p><br> -->
+				<!-- about / welcome text -->               
                 <div class="contenido-about" data-section="Secciones" data-value="about-me-contenido"><p style="font-size: large;"> I am an advertising copywriter with +15 experience in advertising agencies, adapted to the digital world, that is why since the end of 2007 as a freelancer I have dedicated myself to social networks, as a community manager and digital marketing. At the same time, since 2021 I decided (again) to adapt to the present and dedicate myself to programming, and in this way become a FullStack Developer, Python (Django | Flask). My intention is to continue learning and adding knowledge to be able to work in this world that I discovered and it is very exciting.</p>
                 </div><br><br>
                 <a href="https://drive.google.com/file/d/1rmtes1yaeMD3ERNPydVCeFQgwP1kcNAf/view?usp=sharing" target="_blank" class="weight-outline-btn" data-section="Botones" data-value="boton-descargar-cv">Download CV</a><!-- read more button  -->
@@ -264,7 +281,7 @@
                   </div>
                   <!-- PORTFOLIO ITEM END -->
                    
-                <!-- PORTFOLIO ITEM 11 -->
+                <!-- PORTFOLIO ITEM 4 -->
                 <div class="col-md-3 col-sm-6 portfolio-img third">
                   <div class="overlay-effect effects clearfix">
                       <div class="img">
@@ -276,7 +293,7 @@
               </div>
                 <!-- PORTFOLIO ITEM END -->
 
-                 <!-- PORTFOLIO ITEM 8 -->
+                 <!-- PORTFOLIO ITEM 5 -->
                  <div class="col-md-3 col-sm-6 portfolio-img third">
                   <div class="overlay-effect effects clearfix">
                       <div class="img">
@@ -288,7 +305,7 @@
                 </div>
                 <!-- PORTFOLIO ITEM END -->
           
-                  <!-- PORTFOLIO ITEM 9 -->
+                  <!-- PORTFOLIO ITEM 6 -->
                   <div class="col-md-3 col-sm-6 portfolio-img third">
                       <div class="overlay-effect effects clearfix">
                           <div class="img">
@@ -300,7 +317,7 @@
                   </div>
                   <!-- PORTFOLIO ITEM END -->
           
-                  <!-- PORTFOLIO ITEM 4 -->
+                  <!-- PORTFOLIO ITEM 7 -->
                   <div class="col-md-3 col-sm-6 portfolio-img third">
                     <div class="overlay-effect effects clearfix">
                         <div class="img">
@@ -311,8 +328,20 @@
                     </div>
                 </div>                 
                   <!-- PORTFOLIO ITEM END -->
+
+                 <!-- PORTFOLIO ITEM 8 -->
+                  <div class="col-md-3 col-sm-6 portfolio-img third">
+                      <div class="overlay-effect effects clearfix">
+                          <div class="img">
+                              <a href="https://itccomercioexterior.com/" title="Grupo-ITC (Html-Css-Js)" target="_blank">
+                                  <img class="grayscale" src="img/portfolio/portfolio-08-thumbnail.jpg" alt="grupo-itc">
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- PORTFOLIO ITEM END -->
           
-                  <!-- PORTFOLIO ITEM 5 -->
+                  <!-- PORTFOLIO ITEM 9 -->
                   <div class="col-md-3 col-sm-6 portfolio-img third">
                       <div class="overlay-effect effects clearfix">
                           <div class="img">
@@ -324,7 +353,7 @@
                   </div>
                   <!-- PORTFOLIO ITEM END -->
           
-                  <!-- PORTFOLIO ITEM 6 -->
+                  <!-- PORTFOLIO ITEM 10 -->
                   <div class="col-md-3 col-sm-6 portfolio-img third">
                       <div class="overlay-effect effects clearfix">
                           <div class="img">
@@ -336,7 +365,7 @@
                   </div>
                   <!-- PORTFOLIO ITEM END -->
           
-                  <!-- PORTFOLIO ITEM 7 -->
+                  <!-- PORTFOLIO ITEM 11 -->
                   <div class="col-md-3 col-sm-6 portfolio-img third">
                     <div class="overlay-effect effects clearfix">
                         <div class="img">
@@ -348,8 +377,8 @@
                   </div>
                   <!-- PORTFOLIO ITEM END -->                  
           
-                  <!-- PORTFOLIO ITEM 9 -->
-                  <div class="col-md-3 col-sm-6 portfolio-img third">
+                  <!-- PORTFOLIO ITEM 12 -->
+                  <!-- <div class="col-md-3 col-sm-6 portfolio-img third">
                       <div class="overlay-effect effects clearfix">
                           <div class="img">
                               <a href="https://ngo-ingenieria.com/" title="ngo-Ingeniería (Html-Css-Js)" target="_blank">
@@ -357,7 +386,7 @@
                               </a>
                           </div>
                       </div>
-                  </div>
+                  </div> -->
                   <!-- PORTFOLIO ITEM END -->
           
               </div><!--/row-->

@@ -144,3 +144,13 @@ $('#portfolio-flters li').on('click', function () {
 
 
 
+// menu desplegable
+
+// function toggleMenu() {
+//     const menu = document.querySelector('.vertical-nav');
+//     menu.classList.toggle('hidden');
+//   }
+  function toggleMenu() {
+    const menu = document.querySelector('.vertical-nav');
+    menu.classList.toggle('hidden');
+  }
