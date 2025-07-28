@@ -723,9 +723,40 @@ h1.arrow span {
 .skills-effect img:hover {
 	height: 70px;
 	width: 70px;
+	
 	/* filter: grayscale(0%) */
 	
 }
+
+.icon-wrapper {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+.hover-text {
+  position: absolute;
+  bottom: 100%; /* lo ubica arriba del ícono */
+  margin-bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  padding: 6px 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  white-space: nowrap;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+}
+
+.icon-wrapper:hover .hover-text {
+  visibility: visible;
+  opacity: 1;
+}
+
 
 .flask-logo {
     filter: grayscale(100%);
@@ -735,7 +766,7 @@ h1.arrow span {
   .flask-logo:hover {
 	height: 70px !important;
 	width: 55px !important;
-    filter: grayscale(0%);
+    /* filter: grayscale(0%); */
   }
 
   .flask-text {
