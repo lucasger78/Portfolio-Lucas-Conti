@@ -152,28 +152,24 @@ $('#portfolio-flters li').on('click', function () {
     menu.classList.toggle('hidden');
   }
 
-// document.addEventListener('DOMContentLoaded', function () {
-//   const menu = document.getElementById('verticalNav');
-//   const toggleBtn = document.querySelector('.menu-toggle');
 
-//   function toggleMenu() {
-//     menu.classList.toggle('hidden');
-//   }
+// Botón scroll to top
+ document.addEventListener('DOMContentLoaded', function () {
+    const upBtn = document.querySelector('.up-btn');
+    if (!upBtn) return;
 
-//   toggleBtn.addEventListener('click', function (e) {
-//     e.stopPropagation();
-//     toggleMenu();
-//   });
+    const mostrarBoton = () => {
+      if (window.scrollY > 50) {
+        upBtn.classList.add('is-visible');
+      } else {
+        upBtn.classList.remove('is-visible');
+      }
+    };
 
-//   document.addEventListener('click', function (e) {
-//     if (!menu.contains(e.target) && !toggleBtn.contains(e.target)) {
-//       menu.classList.add('hidden');
-//     }
-//   });
+    mostrarBoton(); // Estado inicial
+    window.addEventListener('scroll', mostrarBoton, { passive: true });
+  })
 
-//   window.addEventListener('scroll', function () {
-//     menu.classList.add('hidden');
-//   });
-// });
+
 
 
