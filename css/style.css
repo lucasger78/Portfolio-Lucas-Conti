@@ -555,7 +555,7 @@ table {
 .intro p {
 	margin:50px 0 0;
 }
-h1.arrow {
+h2.arrow {
 	font-size: 16px;
 	text-transform:uppercase;
 	color:#353535;
@@ -564,7 +564,7 @@ h1.arrow {
 	padding-bottom:30px;
 	font-weight: bold;
 }
-h1.arrow span {
+h2.arrow span {
     color: #E04343;
 }
 
