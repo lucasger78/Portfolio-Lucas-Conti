@@ -564,9 +564,9 @@ h2.arrow {
 	padding-bottom:30px;
 	font-weight: bold;
 }
-h2.arrow span {
+/* h2.arrow span {
     color: #E04343;
-}
+} */
 
 /* FLAGS */
 .flags{

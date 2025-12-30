@@ -99,7 +99,7 @@ const loadLanguage = () => {
     changeLanguage(selectedLanguage);
   } else {
     // Establece un idioma predeterminado si no se ha seleccionado ninguno
-    changeLanguage("default");
+    changeLanguage("es");
   }
 };
 
