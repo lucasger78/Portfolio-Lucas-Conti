@@ -243,6 +243,8 @@ button,input {
 }
 button,html input[type="button"],input[type="reset"],input[type="submit"] {
 	-webkit-appearance:button;
+	appearance: button;
+
 	cursor:pointer;
 	overflow:visible;
 }
@@ -257,6 +259,7 @@ input[type="checkbox"],input[type="radio"] {
 }
 input[type="search"] {
 	-webkit-appearance:textfield;
+	appearance: textfield;
 	-moz-box-sizing:content-box;
 	-webkit-box-sizing:content-box;
 	box-sizing:content-box;
@@ -831,7 +834,9 @@ img.grayscale {
 	/* Firefox 3.5+,IE10 */ filter:gray;
 	/* IE6-9 */ -webkit-filter:grayscale(100%);
 	/* Chrome 19+& Safari 6+*/ -webkit-transition:all .6s ease;
+	transition: all 0.6s ease;
 	/* Fade to color for Chrome and Safari */ -webkit-backface-visibility:hidden;
+	backface-visibility: hidden;
 	/* Fix for transition flickering */
 }
 img.grayscale:hover {
